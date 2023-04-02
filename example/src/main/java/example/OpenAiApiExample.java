@@ -11,7 +11,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-class OpenAiApiExample {
+/**
+ * Example app to test OpenAi functionality.
+ */
+public class OpenAiApiExample {
+
+    /**
+     * This is strictly a command-line app.
+     * @param args the arguments
+     */
     public static void main(String... args) {
         String token = System.getenv("OPENAI_TOKEN");
         OpenAiService service = new OpenAiService(token);
